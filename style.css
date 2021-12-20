@@ -1,0 +1,35 @@
+body {
+    background: #4d7ea8;    
+}
+
+h1 {
+    text-decoration: underline;
+     font-size: 3rem;
+      display: flex;
+       justify-content: center;
+        align-items: center;
+         margin-top: 20vh;
+}
+
+h2, p {
+    display: flex;
+       justify-content: center;
+        align-items: center;
+         margin-top: 10vh;
+}
+
+h1, h2 {
+    color: #FFC9B5;
+}
+
+p {
+    color: red;
+}
+
+h1:hover, h2:hover {
+    color: black;
+}
+
+p:hover, p:focus {
+    text-decoration: underline;
+}
